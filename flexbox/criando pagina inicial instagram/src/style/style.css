@@ -30,8 +30,14 @@ main{
     justify-content: space-between;
     align-items: center;
 }
-#formulario img{
+#formulario > img{
     width: 200px;
+}
+#formulario a{
+    margin-top: 10px;
+}
+#formulario a img{
+    width: 16px;
 }
 
 #login{
@@ -40,19 +46,32 @@ main{
     align-items: center;
     border: 1px solid #ccc;
     width: 100%;
-    height: 60%;
+    height: 70%;
     padding: 40px 10px 10px 10px;
 }
 #login input{
     width: 85%;
     height: 40px;
     margin: 6px;
+    outline: 0;
+    border: 1px solid #ccc;
+    padding: 0 5px;
+}
+
+button{
+    width: 85%;
+    height: 40px;
+    margin: 6px;
+    border: none;
+    color: white;
+    background-color: rgb(0, 153, 255);
+    font-weight: bold;
 }
 
 #cadastrar{
     width: 100%;
     height: 10%;
-    border: 1px solid black;
+    border: 1px solid #ccc;
 }
 #cadastrar p{
     position: relative;
@@ -61,10 +80,21 @@ main{
     text-align: center;
 }
 
+a{
+    text-decoration: none;
+}
+
+
 #baixar{
-    border: 1px solid black;
+    text-align: center;
+    width: 400px;
+}
+#baixar > div{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .baixar{
-    width: 120px;
+    width: 130px;
 }
